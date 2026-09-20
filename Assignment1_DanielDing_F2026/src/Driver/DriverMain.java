@@ -10,12 +10,12 @@ public class DriverMain {
 //		a.CalcGrade();
 		
 		//Task b
-		CovnvertMilesToKilo b = new CovnvertMilesToKilo();
-		b.Convert();
+//		CovnvertMilesToKilo b = new CovnvertMilesToKilo();
+//		b.Convert();
 		
 		// Task c
-//		ConvertLitersToGallons c = new  ConvertLitersToGallons();
-//		c.Convert();
+		ConvertLitersToGallons c = new  ConvertLitersToGallons();
+		c.Convert();
 		
 		// Task d
 //		CADToUSD d = new CADToUSD();

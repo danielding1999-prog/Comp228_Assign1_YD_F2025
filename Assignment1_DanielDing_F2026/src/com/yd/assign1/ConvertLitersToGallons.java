@@ -23,6 +23,6 @@ public class ConvertLitersToGallons {
 		gallon = liter * CONSTANT;
 		
 
-		System.out.println(gallon);
+		System.out.printf("The coverted gallon is %.4f%n", gallon);
 	}
 }
