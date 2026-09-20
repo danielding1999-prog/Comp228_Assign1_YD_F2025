@@ -1,6 +1,11 @@
 package com.yd.assign1;
 import java.util.Scanner;
-
+/*
+ * Author: Yiming(Daniel) Ding
+ * Date: 09/19/2026
+ * Description: Takes in 6 grades inputs from user and calculate the average
+ * Depending on the average print out A, B, C, D, and F.
+ */
 public class CalculateGrade {
 
 	public void CalcGrade() {
