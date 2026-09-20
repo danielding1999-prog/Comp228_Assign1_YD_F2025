@@ -23,6 +23,6 @@ public class CADToUSD {
 		usd = cad * CONSTANT;
 		
 
-		System.out.println(usd+" USD");
+		System.out.printf("%.2f CAD is equal to %.2f USD%n", cad, usd);
 }
 }

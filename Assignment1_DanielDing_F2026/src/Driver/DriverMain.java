@@ -14,12 +14,12 @@ public class DriverMain {
 //		b.Convert();
 		
 		// Task c
-		ConvertLitersToGallons c = new  ConvertLitersToGallons();
-		c.Convert();
+//		ConvertLitersToGallons c = new  ConvertLitersToGallons();
+//		c.Convert();
 		
 		// Task d
-//		CADToUSD d = new CADToUSD();
-//		d.Convert();
+		CADToUSD d = new CADToUSD();
+		d.Convert();
 	}
 
 }
