@@ -1,5 +1,11 @@
 package com.yd.assign1;
 import java.util.Scanner;
+/*
+ * Author: Yiming(Daniel) Ding
+ * Date: 09/19/2026
+ * Description: Takes in 1 input which is mile from user and converts to
+ * kilometer.
+ */
 public class CovnvertMilesToKilo {
 	public void Convert() {
 		// Constant from miles to kilometer is 1.60934
