@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 public class CalculateGrade {
 
-	public void CalcGrade() {
+	public void CalcGrade(Scanner input) {
 		
 		/*
 		 * Logic for grade calculation...	
@@ -18,15 +18,13 @@ public class CalculateGrade {
 			int i;
 			float total = 0, avg;
 
-			try (Scanner scanner = new Scanner(System.in)) {
 				for (i = 0; i < 6; i++) {
 
-					System.out.print("Enter Marks of Subject" + (i + 1) + ":");
-					marks[i] = scanner.nextInt();
+					System.out.print("Enter Marks of Subject" + (i + 1) + ": ");
+					marks[i] = input.nextInt();
 					total = total + marks[i];
 				}
-				scanner.close();
-			}
+
 
 			// Calculating average here
 			avg = total / 6;
@@ -55,7 +53,7 @@ public class CalculateGrade {
 				System.out.print("F");
 			}
 
-
+			System.out.printf("%n");
 			
 		}
 }

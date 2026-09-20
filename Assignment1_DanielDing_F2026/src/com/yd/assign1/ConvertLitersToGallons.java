@@ -8,16 +8,14 @@ import java.util.Scanner;
  */
 public class ConvertLitersToGallons {
 
-	public void Convert() {
+	public void Convert(Scanner input) {
 
 		double CONSTANT = 0.264172;
-		double liter;
-		double gallon;
+		double liter = 1;
+		double gallon = 1;
 
 		System.out.print("Please enter liters: ");
-		Scanner input = new Scanner(System.in);
 		liter = input.nextDouble();
-		input.close();
 		
 	
 		gallon = liter * CONSTANT;
