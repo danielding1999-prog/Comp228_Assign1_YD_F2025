@@ -22,6 +22,6 @@ public class CovnvertMilesToKilo {
 		kilometer = miles * CONSTANT;
 		
 		// print out the kilometer
-		System.out.println(kilometer);
+		System.out.printf("Converted Kilometer is %.4f%n", kilometer);
 	}
 }
