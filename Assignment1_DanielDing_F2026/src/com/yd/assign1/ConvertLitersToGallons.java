@@ -1,7 +1,11 @@
 package com.yd.assign1;
-
 import java.util.Scanner;
-
+/*
+ * Author: Yiming(Daniel) Ding
+ * Date: 09/19/2026
+ * Description: Takes in 1 input which is litter from user and converts to
+ * gallon.
+ */
 public class ConvertLitersToGallons {
 
 	public void Convert() {
